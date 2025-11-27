@@ -55,12 +55,17 @@ header {
   white-space: nowrap;
 }
 
-.menu ul li:hover {
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu ul li a:hover {
   cursor: pointer;
   color: #acdefb;
 }
 
-.menu ul li:active {
+.menu ul li a:active {
   cursor: pointer;
   color: #629fc2;
 }
